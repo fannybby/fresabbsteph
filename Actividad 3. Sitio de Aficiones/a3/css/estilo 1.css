@@ -1,0 +1,156 @@
+/* Tipografía */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    font-weight: 600;
+    color: #d81b60;
+}
+p {
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Fondo y contenedores */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px 0;
+}
+..hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 250px; /* Reduciendo la altura */
+}
+.hero-img {
+    width: 100%;
+    height: 500px; /* Ajustando la altura para que coincida con el contenedor */
+    object-fit: cover;
+    filter: brightness(60%);
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.2em; /* Tamaño de fuente más pequeño para adaptarse al espacio */
+}
+.album-img2 {
+    width: 100%;
+    max-width: 450px; /* Ajusta este valor para hacer las imágenes más pequeñas */
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.album-img2 {
+    width: 100%;
+    max-width: 450px; /* Ajusta este valor para hacer las imágenes más pequeñas */
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.album-img3 {
+    width: 100%;
+    max-width: 450px; /* Ajusta este valor para hacer las imágenes más pequeñas */
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.event-img {
+    width: 100%;
+    max-width: 700px; /* Tamaño pequeño para las imágenes */
+    margin: 10px auto; /* Centrar la imagen con margen automático */
+    display: block; /* Asegura que la imagen sea tratada como un bloque para el centrado */
+    border-radius: 10px;
+}
+
+}
+section {
+    padding: 6px 6px;
+}
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Bordes */
+article {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;  /* Centra el contenido dentro del artículo */
+}
+
+}
+
+/* Enlaces */
+a {
+    color: #d81b60;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.btn {
+    background-color: #d81b60;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #e91e63;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+}
+nav ul li a {
+    color: white;
+    font-weight: 600;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    background-color: #f06292;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Responsividad */
+@media (max-width: 100px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        padding: 20px 10px;
+    }
+}
